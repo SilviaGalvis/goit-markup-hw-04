@@ -1,0 +1,353 @@
+.box {
+  height: 600px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  padding: 230px;
+  background-image: url(“../images/banner.jpg”);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.box .button-current {
+  display: block;
+  background-color: var(--brand-color);
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  border-radius: 4px;
+  padding: 10px;
+  justify-content: center;
+}
+
+/* clases tarea 3 */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  display: block;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  padding: 15px;
+  justify-content: center;
+}
+
+.page-header {
+  /*  Making header.page-header a Flex-container and aligning elements  */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.logo {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  color: var(--brand-color);
+  text-decoration: none;
+  padding: 15px;
+}
+
+.menu {
+  display: flex;
+  padding: 0px;
+  margin: 0;
+  list-style: none;
+}
+
+.menu > .item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.menu .a {
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  color: #212121;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+}
+
+.menu .a-heather {
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  color: var(--font-color);
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+}
+
+.menu .current {
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  color: var(--brand-color);
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+}
+
+.item {
+  display: inline;
+  padding: 20px;
+}
+
+.banner-content {
+  padding: 20px;
+}
+
+.section-list {
+  /*  Making section a Flex-container and aligning elements  */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.list-text {
+  display: flex;
+  padding: 0px;
+  margin: 80px;
+  list-style: none;
+}
+
+.title2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.03em;
+  margin: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.list-image {
+  display: flex;
+  margin: 20px;
+  list-style: none;
+  justify-content: center;
+}
+
+.item-image {
+  display: inline;
+  padding: 5px;
+}
+
+.item-image:hover {
+  color: white;
+  background-color: var(--brand-color);
+}
+
+.list-team {
+  display: flex;
+  margin: 20px;
+  list-style: none;
+  justify-content: center;
+}
+
+.item-team {
+  display: inline;
+  padding: 10px;
+  text-align: center;
+}
+
+.team {
+  background: #f5f4fa;
+  padding: 20px;
+}
+
+.title-team {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.03em;
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.content-team {
+  background-color: #ffffff;
+}
+
+.footer {
+  padding: 50px;
+  background-color: #2f303a;
+}
+
+.menu-footer {
+  list-style: none;
+}
+
+.item-footer {
+  padding: 15px;
+  width: 250px;
+}
+
+/* clases tarea 3 portafolio */
+
+.menu-buttons {
+  display: flex;
+  padding: 0px;
+  margin: 0;
+  list-style: none;
+  justify-content: center;
+}
+
+.item-buttons {
+  display: inline;
+  padding: 20px;
+}
+
+.button {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  border-radius: 4px;
+  display: block;
+  padding: 10px;
+}
+
+.button:hover {
+  color: white;
+  background-color: var(--brand-color);
+}
+
+.list-portafolio {
+  display: flex;
+  margin: 20px;
+  list-style: none;
+  justify-content: center;
+}
+
+.item-portafolio {
+  display: inline;
+  padding: 10px;
+  text-align: left;
+}
+
+.link:hover {
+  color: white;
+  background-color: var(--brand-color);
+}
+
+.content-portafolio {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+
+/* clases tarea 2 */
+
+body {
+  font-family: 'Roboto', 'Arial', Sans-serif;
+  color: var(--color);
+  line-height: 1.3rem;
+}
+
+:root {
+  --color: #212121;
+  --brand-color: #2196f3;
+  --font-color: #757575;
+  --hover-color: var(--brand-color);
+}
+
+.a:hover {
+  color: var(--brand-color);
+}
+
+.a-heather:hover {
+  color: var(--brand-color);
+}
+
+.a-footer {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.a-footer:hover {
+  color: var(--brand-color);
+}
+
+.a-footer-grey {
+  color: var(--font-color);
+  text-decoration: none;
+}
+
+.a-footer-grey:hover {
+  color: var(--brand-color);
+}
+
+.contacto {
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  color: var(--color);
+}
+
+.contacto:hover {
+  color: var(--brand-color);
+}
+
+.end {
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  color: var(--color);
+}
+
+.end:hover {
+  color: var(--brand-color);
+}
+
+.pharagraf {
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.portafolio {
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  color: var(--color);
+}
+
+.portafolio:hover {
+  color: var(--brand-color);
+}
+
+.title1 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+  width: 700px;
+  line-height: 1.3em;
+  text-align: center;
+}
+
+.title3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
